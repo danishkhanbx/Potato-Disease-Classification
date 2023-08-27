@@ -1,4 +1,0 @@
-flask
-tensorflow
-numpy
-matplotlib
