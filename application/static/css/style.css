@@ -1,0 +1,15 @@
+#outer_div {
+  padding: 5%;
+  padding-top: 0;
+}
+body {
+  background-color: #ccc;
+}
+#pred {
+  height: 350px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 2px;
+  text-align: center;
+}

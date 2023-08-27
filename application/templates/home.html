@@ -1,0 +1,55 @@
+{% extends 'base.html' %} {% block title %} Home {% endblock %}
+<!-- content -->
+{% block content %}
+<div class="container-fluid justify-content-center" id="outer_div">
+  <h2 class="d-flex justify-content-center p-2">Potato Disease Classifier</h2>
+  <div class="row">
+    <div class="col-md-6 bg-secondary">
+      <div class="row">
+        <div class="col bg-secondary p-3">
+          <form action="/" method="post" enctype="multipart/form-data">
+            <div class="input-group">
+              <input
+                type="file"
+                name="file"
+                class="form-control"
+                aria-describedby="basic-addon2"
+                required
+              />
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">Predict</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div align="center" class="container pb-4">
+        {% if input_img %}
+        <img
+          width="300px"
+          height="300px"
+          class="img-fluid"
+          src="{{ url_for('static', filename='uploads/'+input_img) }}"
+        />
+        {% endif %}
+      </div>
+    </div>
+    <div class="col-md-6 bg-warning pb-2">
+      {% if pred %}
+      <h4 align="center">Result: {{pred}}</h4>
+      {% else %}
+      <h4 align="center">Prediction</h4>
+      {% endif %}
+      <div class="container p-2" id="pred">
+        {% if pred_img %}
+        <img
+          class="img-fluid"
+          style="padding-top: 20px"
+          src="{{ url_for('static', filename='uploads/'+pred_img) }}"
+        />
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
