@@ -1,5 +1,6 @@
 # Plant Disease Classifier
-A web application to predict the disease in an infected potato plant using it's leaf and Convolutional Neural Networks.<br>
+About
+In this project we aim to build a web app that can assist farmers in detecting potato plant diseases. The application will be able to classify the disease in an infected potato plant using it's leaf and Convolutional Neural Networks.<br>
 
 # Run 🎯
 ### 1. Download or clone the repository
