@@ -4,7 +4,7 @@ About: In this project we aim to build a web app that can assist farmers in dete
 # Run 🎯
 ### 1. Download or clone the repository
 ### 2. Open cmd or terminal
-### 3. change directory (cd) to `plant-disease-classifier`
+### 3. change directory (cd) to `Potato-Disease-Classification-master`
 ### 4. Enter `pip install -r requirements.txt`
 ### 5. Enter `python app.py`
 
