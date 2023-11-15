@@ -28,3 +28,9 @@ About: In this project we aim to build a web app that can assist farmers in dete
 
 #### Result page
 ![res](https://github.com/ashok49473/potato-disease-classifier/blob/master/images-md/result.png)
+
+## Research Paper: Potato Leaf Disease Prediction 
+- **Description:** A research project focused on using Convolutional Neural Network (CNN) to detect and identify potato leaf diseases, aiming to help farmers detect diseases early and prevent economic losses. The project achieved a classification accuracy of around 97% and utilized data augmentation to make the model more robust.
+- [Online IJIRT Paper](https://ijirt.org/Article?manuscript=1593)
+- [Letter of Acceptance](https://drive.google.com/file/d/1h3faYDQvdD0nSBSzTf0-0ZQxaAZAI5nv/view?usp=sharing)
+- [Certificate of Each Member](https://drive.google.com/file/d/15sUcIuIQfKBfD5TF3uTaXx4t_JsABb-X/view?usp=sharing)
