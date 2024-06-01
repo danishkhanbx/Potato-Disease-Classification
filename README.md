@@ -1,14 +1,14 @@
 # Plant Disease Classifier
 About: In this project we aim to build a web app that can assist farmers in detecting potato plant diseases. The application will be able to classify the disease in an infected potato plant using it's leaf and Convolutional Neural Networks.<br>
 
-# Run 🎯
+## Run 🎯
 ### 1. Download or clone the repository
 ### 2. Open cmd or terminal
 ### 3. change directory (cd) to `Potato-Disease-Classification-master`
 ### 4. Enter `pip install -r requirements.txt`
 ### 5. Enter `python app.py`
 
-# Tools✅
+### Tools✅
 **Python 3.7** <br>
 **Flask**<br>
 **Tensorflow 2.6**<br>
@@ -19,7 +19,10 @@ About: In this project we aim to build a web app that can assist farmers in dete
 **Bootstrap**<br>
 **IDE: VScode**<br>
 
-# Tour!🎯
+## Tour!🎯
+### Video Explanation
+https://github.com/danishkhanbx/Potato-Disease-Classification/assets/83022701/1089eb69-1a06-44cd-bdf4-b8f905a10630
+
 #### Home page
 ![home](https://github.com/ashok49473/potato-disease-classifier/blob/master/images-md/home.png)
 
